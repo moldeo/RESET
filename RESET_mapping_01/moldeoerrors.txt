@@ -1,0 +1,5 @@
+Warning! Extra parameters must be defined at the end of config file. "__console__"
+Warning! <moConsole>[__console__]::Init()_moDefineParamIndex > Config parameter "videoshots"  warning. Bad indexation could cause errors.
+Error! moConsole::ProcessMoldeoAPIMessage > MO_ACTION_PRECONFIG_SET > preconfig index [0] not found!
+Error! moConsole::ProcessMoldeoAPIMessage > MO_ACTION_PRECONFIG_SET > preconfig index [0] not found!
+Error! Error releasing bus call watch:252201579132747778

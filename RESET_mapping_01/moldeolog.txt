@@ -1,0 +1,625 @@
+Joystick events:1
+moGLManager::Init > GL VERSION: 4.4.0 NVIDIA 340.102
+moGLManager::Init > GL_MAJOR_VERSION: 4
+moGLManager::Init > GL_MINOR_VERSION: 4
+moGLManager::Init > GPU VENDOR STRING is NVIDIA Corporation
+moGLManager::Init > GPU RENDERER STRING is GeForce GT 640M/PCIe/SSE2
+moResourceManager::Init > Initializing Embedded Resources.
+moResourceManager::Init > Initializing Debug Man Resource.
+moResourceManager::Init > Initializing Net Man Resource.
+moResourceManager::Init > Initializing File Man Resource.
+moResourceManager::Init > Initializing Data Man Resource.
+ moDataSessionConfig() > m_AppPath empty, setting to Work Path: /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01 p_Port: 0 p_Address: 0
+ moDataSessionConfig() > m_AppPath: /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01
+ moDataSessionConfig() > m_ConsoleConfigName: 
+ moDataSessionConfig() > m_ConsoleConfigName fixed to: /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01/
+ moDataSessionConfig() > m_SessionFileName fixed to: /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01/sesion.mos
+moDataSessionConfig > Loaded /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01/sesion.mos
+ moDataSessionConfig() > m_DataPath: /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01
+File founded
+libmoldeo_erase
+libmoldeo_mirror
+libmoldeo_mirrorg
+File founded
+libmoldeo_assimp
+libmoldeo_camera
+libmoldeo_cubemap
+libmoldeo_grid
+libmoldeo_icon
+libmoldeo_icon3d
+libmoldeo_image
+libmoldeo_imageflow
+libmoldeo_imageflow3d
+libmoldeo_livedrawing2
+libmoldeo_movie
+libmoldeo_particlesfractal
+libmoldeo_particlessimple
+libmoldeo_plane
+libmoldeo_regularsolid
+libmoldeo_sound
+libmoldeo_sound3d
+libmoldeo_text
+libmoldeo_text3d
+libmoldeo_tunel
+libmoldeo_webview
+File founded
+libmoldeo_calibrationgrid
+libmoldeo_debug
+libmoldeo_deformationgrid
+libmoldeo_postprocess2d
+libmoldeo_videowall
+libmoldeo_videowallmorphing
+File founded
+libmoldeo_channel
+libmoldeo_ligia
+libmoldeo_masterchannel
+libmoldeo_panel
+libmoldeo_presetpanel
+File founded
+libmoldeo_opencv
+libmoldeo_openface
+libmoldeo_trackerklt
+File founded
+libmoldeo_keyboard
+libmoldeo_kinect
+libmoldeo_midi
+libmoldeo_mixer
+libmoldeo_mouse
+libmoldeo_netoscin
+libmoldeo_netoscout
+libmoldeo_nettuioin
+libmoldeo_ola
+libmoldeo_serial
+libmoldeo_tablet
+moResourceManager::Init > Initializing Filter Man Resource.
+moResourceManager::Init > Initializing Time Man Resource.
+moResourceManager::Init > Initializing GL Man Resource.
+moGLManager::Init > GL VERSION: 4.4.0 NVIDIA 340.102
+moGLManager::Init > GL_MAJOR_VERSION: 4
+moGLManager::Init > GL_MINOR_VERSION: 4
+moGLManager::Init > GPU VENDOR STRING is NVIDIA Corporation
+moGLManager::Init > GPU RENDERER STRING is GeForce GT 640M/PCIe/SSE2
+moResourceManager::Init > Initializing FrameBuffer Man Resource.
+moResourceManager::Init > Initializing Texture Man Resource.
+ moTexture::CalculateSize  of texture: preview_texture from 1024x1024 to 1024x1024
+ moTexture::CalculateSize  of texture: default from 256x256 to 256x256
+moTextureManager::Init > loading default file:/usr/share/moldeo/data/icons/moldeologo.png
+default bpp: 32 colortype:4 image_type:1 pitch:1024 > blue_mask: 255 green_mask:65280 red_mask:16711680
+ moTexture::CalculateSize  of texture: default from 256x256 to 256x256
+ moTexture::CalculateSize  of texture: moldeonegro from 1800x600 to 2048x1024
+moTextureManager::Init > loading logo file:/usr/share/moldeo/data/icons/moldeonegro.png
+ moTexture::CalculateSize  of texture: moldeotrans from 1800x600 to 2048x1024
+moTextureManager::Init > loading logo file:/usr/share/moldeo/data/icons/moldeotrans.png
+moldeotrans bpp: 32 colortype:4 image_type:1 pitch:8192 > blue_mask: 255 green_mask:65280 red_mask:16711680
+ moTexture::CalculateSize  of texture: moldeotrans from 2048x1024 to 2048x1024
+moResourceManager::Init > Initializing Decoder Manager Resource.
+moResourceManager::Init > Initializing Render Man Resource.
+moRenderManager::Init > Setting Render Manager Mode to:0
+moRenderManager::Init > Setting Render Manager for Render: 320x240 for Screen: 640x480
+moRenderManager::Init > Initializing glew.
+moRenderManager::Init > glew initialized succesfully!
+moRenderManager::Init > Using GLEW 1.13.0
+moRenderManager::Init >       glActiveTextureARB: 140139912237728
+moRenderManager::Init >       glMultiTexCoord2fARB: 140139912238496
+moRenderManager::Init >       GLEW_ARB_texture_non_power_of_two: 1
+moRenderManager::Init >       GLEW_ARB_color_buffer_float: 1
+moRenderManager::Init >       GLEW_ARB_multitexture: 1
+moRenderManager::Init >       GL_EXT_gpu_shader4: 1
+moRenderManager::Init >       GLEW_EXT_geometry_shader4: 1
+moRenderManager::Init >       GLEW_ARB_imaging: 1
+moRenderManager::Init >       GLEW_ARB_shading_language_100: 1
+moRenderManager::Init >       GLEW_EXT_framebuffer_object: 1
+moRenderManager::Init >       GL_MAX_FRAGMENT_UNIFORM_COMPONENTS_ARB: 35657
+moRenderManager::Init >       GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS_ARB: 35661
+moRenderManager::Init >       GL_MAX_COLOR_ATTACHMENTS: 36063
+moRenderManager::Init >       Max Texture Size: 16384
+moRenderManager::Init >       Max Texture Rectangle Size: 16384
+moRenderManager::Init >       Max Texture Buffer Size: 134217728
+moRenderManager::Init > Using framebuffer_object: creating one fbo per predefined textures (4). 
+moFBO::CheckStatus > Framebuffer status: 
+moFBO::CheckStatus > GL_FRAMEBUFFER_COMPLETE_EXT
+moFBO::CheckStatus > Framebuffer status: 
+moFBO::CheckStatus > GL_FRAMEBUFFER_COMPLETE_EXT
+moFBO::CheckStatus > Framebuffer status: 
+moFBO::CheckStatus > GL_FRAMEBUFFER_COMPLETE_EXT
+moFBO::CheckStatus > Framebuffer status: 
+moFBO::CheckStatus > GL_FRAMEBUFFER_COMPLETE_EXT
+moResourceManager::Init > Initializing Shader Man Resource.
+No shadermanager configuration file defined. Continue.
+moShaderManager::Init > Creating basic Render Shader...
+Vertex Shader compile log:()
+
+
+moShaderManager::Init > m_RenderShader Attrib IDs, position:0 normal:4 color:1 opacity:3 t_coord:3 t_coordedge:-1
+moShaderManager::Init > m_RenderShader Uniform IDs, projmatrix:4 wireframe_width:6 wseg:7 hseg:2 a_light:0 t_image:5
+moResourceManager::Init > Initializing Math Man Resource.
+moResourceManager::Init > Initializing Font Man Resource.
+moResourceManager::Init > Initializing GUI Man Resource.
+moResourceManager::Init > Initializing Sound Man Resource.
+No soundmanager configuration file defined. Continue.
+moResourceManager::Init > Initializing Video Man Resource.
+No videomanager configuration file defined. Continue.
+moResourceManager::Init > Initializing Model Man Resource.
+moResourceManager::Init > Initializing Script Man Resource.
+moLuaResourceManager constructor > L: 38180416
+moResourceManager:: Embedded Resources Ready.
+moConsole:: Initializing IODevice's Manager.
+moConsole::Init > Initializing Effects Manager.
+*****Initializing __console__ *****
+RegisterFunction > m_iMethodBase: 1for: PushDebugString
+RegisterFunction > m_iMethodBase: 37for: Play
+*****moMoldeoObject::Init > for plugin: __console__ config: RESET_mapping_01.mol label: __console__ is OK!
+moConsole::Init > mol project opening....success 
+moConsole::Init > Initializing Resource Manager.  app path: /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01 data path:  config: RESET_mapping_01.mol render mode: 0 screen size: 640x480 render size: 640x480
+moResourceManager::Init > Initializing Embedded Resources.
+moResourceManager::Init > Initializing Debug Man Resource.
+moResourceManager::Init > Initializing Net Man Resource.
+moResourceManager::Init > Initializing File Man Resource.
+moResourceManager::Init > Initializing Data Man Resource.
+ moDataSessionConfig() > m_AppPath: /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01
+ moDataSessionConfig() > m_ConsoleConfigName: RESET_mapping_01.mol
+ moDataSessionConfig() > m_ConsoleConfigName fixed to: /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01/RESET_mapping_01.mol
+ moDataSessionConfig() > m_SessionFileName fixed to: /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01/sesion.mos
+moDataSessionConfig > Loaded /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01/sesion.mos
+ moDataSessionConfig() > m_DataPath: /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01
+File founded
+libmoldeo_erase
+libmoldeo_mirror
+libmoldeo_mirrorg
+File founded
+libmoldeo_assimp
+libmoldeo_camera
+libmoldeo_cubemap
+libmoldeo_grid
+libmoldeo_icon
+libmoldeo_icon3d
+libmoldeo_image
+libmoldeo_imageflow
+libmoldeo_imageflow3d
+libmoldeo_livedrawing2
+libmoldeo_movie
+libmoldeo_particlesfractal
+libmoldeo_particlessimple
+libmoldeo_plane
+libmoldeo_regularsolid
+libmoldeo_sound
+libmoldeo_sound3d
+libmoldeo_text
+libmoldeo_text3d
+libmoldeo_tunel
+libmoldeo_webview
+File founded
+libmoldeo_calibrationgrid
+libmoldeo_debug
+libmoldeo_deformationgrid
+libmoldeo_postprocess2d
+libmoldeo_videowall
+libmoldeo_videowallmorphing
+File founded
+libmoldeo_channel
+libmoldeo_ligia
+libmoldeo_masterchannel
+libmoldeo_panel
+libmoldeo_presetpanel
+File founded
+libmoldeo_opencv
+libmoldeo_openface
+libmoldeo_trackerklt
+File founded
+libmoldeo_keyboard
+libmoldeo_kinect
+libmoldeo_midi
+libmoldeo_mixer
+libmoldeo_mouse
+libmoldeo_netoscin
+libmoldeo_netoscout
+libmoldeo_nettuioin
+libmoldeo_ola
+libmoldeo_serial
+libmoldeo_tablet
+moResourceManager::Init > Initializing Filter Man Resource.
+moResourceManager::Init > Initializing Time Man Resource.
+moResourceManager::Init > Initializing GL Man Resource.
+moGLManager::Init > GL VERSION: 4.4.0 NVIDIA 340.102
+moGLManager::Init > GL_MAJOR_VERSION: 4
+moGLManager::Init > GL_MINOR_VERSION: 4
+moGLManager::Init > GPU VENDOR STRING is NVIDIA Corporation
+moGLManager::Init > GPU RENDERER STRING is GeForce GT 640M/PCIe/SSE2
+moResourceManager::Init > Initializing FrameBuffer Man Resource.
+moResourceManager::Init > Initializing Texture Man Resource.
+moTextureManager::Init > loading default file:/usr/share/moldeo/data/icons/moldeologo.png
+default bpp: 32 colortype:4 image_type:1 pitch:1024 > blue_mask: 255 green_mask:65280 red_mask:16711680
+moTextureManager::Init > loading logo file:/usr/share/moldeo/data/icons/moldeonegro.png
+moTextureManager::Init > loading logo file:/usr/share/moldeo/data/icons/moldeotrans.png
+moldeotrans bpp: 32 colortype:4 image_type:1 pitch:7200 > blue_mask: 255 green_mask:65280 red_mask:16711680
+moResourceManager::Init > Initializing Decoder Manager Resource.
+moResourceManager::Init > Initializing Render Man Resource.
+moRenderManager::Init > Setting Render Manager Mode to:0
+moRenderManager::Init > Setting Render Manager for Render: 640x480 for Screen: 640x480
+moRenderManager::Init > Initializing glew.
+moRenderManager::Init > glew initialized succesfully!
+moRenderManager::Init > Using GLEW 1.13.0
+moRenderManager::Init >       glActiveTextureARB: 140139912237728
+moRenderManager::Init >       glMultiTexCoord2fARB: 140139912238496
+moRenderManager::Init >       GLEW_ARB_texture_non_power_of_two: 1
+moRenderManager::Init >       GLEW_ARB_color_buffer_float: 1
+moRenderManager::Init >       GLEW_ARB_multitexture: 1
+moRenderManager::Init >       GL_EXT_gpu_shader4: 1
+moRenderManager::Init >       GLEW_EXT_geometry_shader4: 1
+moRenderManager::Init >       GLEW_ARB_imaging: 1
+moRenderManager::Init >       GLEW_ARB_shading_language_100: 1
+moRenderManager::Init >       GLEW_EXT_framebuffer_object: 1
+moRenderManager::Init >       GL_MAX_FRAGMENT_UNIFORM_COMPONENTS_ARB: 35657
+moRenderManager::Init >       GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS_ARB: 35661
+moRenderManager::Init >       GL_MAX_COLOR_ATTACHMENTS: 36063
+moRenderManager::Init >       Max Texture Size: 16384
+moRenderManager::Init >       Max Texture Rectangle Size: 16384
+moRenderManager::Init >       Max Texture Buffer Size: 134217728
+moRenderManager::Init > Using framebuffer_object: creating one fbo per predefined textures (4). 
+moFBO::CheckStatus > Framebuffer status: 
+moFBO::CheckStatus > GL_FRAMEBUFFER_COMPLETE_EXT
+moFBO::CheckStatus > Framebuffer status: 
+moFBO::CheckStatus > GL_FRAMEBUFFER_COMPLETE_EXT
+moFBO::CheckStatus > Framebuffer status: 
+moFBO::CheckStatus > GL_FRAMEBUFFER_COMPLETE_EXT
+moFBO::CheckStatus > Framebuffer status: 
+moFBO::CheckStatus > GL_FRAMEBUFFER_COMPLETE_EXT
+moResourceManager::Init > Initializing Shader Man Resource.
+No shadermanager configuration file defined. Continue.
+moShaderManager::Init > Creating basic Render Shader...
+Vertex Shader compile log:()
+
+
+moShaderManager::Init > m_RenderShader Attrib IDs, position:0 normal:4 color:1 opacity:3 t_coord:3 t_coordedge:-1
+moShaderManager::Init > m_RenderShader Uniform IDs, projmatrix:4 wireframe_width:6 wseg:7 hseg:2 a_light:0 t_image:5
+moResourceManager::Init > Initializing Math Man Resource.
+moResourceManager::Init > Initializing Font Man Resource.
+moResourceManager::Init > Initializing GUI Man Resource.
+moResourceManager::Init > Initializing Sound Man Resource.
+No soundmanager configuration file defined. Continue.
+moResourceManager::Init > Initializing Video Man Resource.
+No videomanager configuration file defined. Continue.
+moResourceManager::Init > Initializing Model Man Resource.
+moResourceManager::Init > Initializing Script Man Resource.
+moLuaResourceManager constructor > L: 38180416
+moResourceManager:: Embedded Resources Ready.
+moMoldeoObject::CreateConnectors > Calling once. object: __console__ config: RESET_mapping_01.mol label:__console__
+moMoldeoObject::CreateConnectors > Init param type INLET name: inlet
+moMoldeoObject::CreateConnectors > Init param type OUTLET name: outlet
+moMoldeoObject::CreateConnectors > Init param type SCRIPT name: script
+moMoldeoObject::CreateConnectors > Init param type MOLDEOOBJECT name: devices
+moMoldeoObject::CreateConnectors > Init param type MOLDEOOBJECT name: preeffect
+moMoldeoObject::CreateConnectors > Init param type MOLDEOOBJECT name: effect
+moMoldeoObject::CreateConnectors > Init param type MOLDEOOBJECT name: posteffect
+moMoldeoObject::CreateConnectors > Init param type MOLDEOOBJECT name: mastereffect
+moMoldeoObject::CreateConnectors > Init param type MOLDEOOBJECT name: resources
+moMoldeoObject::CreateConnectors > Init param type NUM name: mastereffects_on
+moMoldeoObject::CreateConnectors > Init param type NUM name: fulldebug
+moMoldeoObject::CreateConnectors > Init param type TEXT name: outputmode
+moMoldeoObject::CreateConnectors > Init param type TEXT name: outputresolution
+moMoldeoObject::CreateConnectors > Init param type TEXT name: rendermode
+moMoldeoObject::CreateConnectors > Init param type TEXT name: renderresolution
+moMoldeoObject::CreateConnectors > Init param type TEXT name: clip1
+moMoldeoObject::CreateConnectors > Init param type TEXT name: clip2
+moMoldeoObject::CreateConnectors > Init param type TEXT name: clip3
+moMoldeoObject::CreateConnectors > Init param type NUM name: screenshots
+moMoldeoObject::CreateConnectors > Init param type NUM name: videoshots
+moMoldeoObject::CreateConnectors > loaded params & values for Object: __console__ config:RESET_mapping_01.mol label:__console__
+moMoldeoObject::CreateConnectors > OK! Object: __console__ config:RESET_mapping_01.mol label: __console__
+Warning! Extra parameters must be defined at the end of config file. "__console__"
+{'objectname': '__console__','objectclass': 'moConsole'}
+Warning! <moConsole>[__console__]::Init()_moDefineParamIndex > Config parameter "videoshots"  warning. Bad indexation could cause errors.
+moConsole::LoadIODevices > IODevices loaded.
+*****Initializing netoscin *****
+RegisterFunction > m_iMethodBase: 1for: PushDebugString
+*****moMoldeoObject::Init > for plugin: netoscin config: moldeoapioscin label: moldeoapioscin is OK!
+moMoldeoObject::CreateConnectors > Calling once. object: netoscin config: moldeoapioscin label:moldeoapioscin
+moMoldeoObject::CreateConnectors > Init param type INLET name: inlet
+moMoldeoObject::CreateConnectors > Init param type OUTLET name: outlet
+moMoldeoObject::CreateConnectors > Init param type SCRIPT name: script
+moMoldeoObject::CreateConnectors > Init param type TEXT name: hosts
+moMoldeoObject::CreateConnectors > Init param type NUM name: port
+moMoldeoObject::CreateConnectors > Init param type NUM name: receive_events
+moMoldeoObject::CreateConnectors > Init param type NUM name: debug
+moMoldeoObject::CreateConnectors > Init param type NUM name: process_moldeo_api
+moMoldeoObject::CreateConnectors > loaded params & values for Object: netoscin config:moldeoapioscin label:moldeoapioscin
+moMoldeoObject::CreateConnectors > OK! Object: netoscin config:moldeoapioscin label: moldeoapioscin
+*****Initializing netoscin *****
+RegisterFunction > m_iMethodBase: 37for: PushDebugString
+*****moMoldeoObject::Init > for plugin: netoscin config: moldeoapioscin label: moldeoapioscin is OK!
+ NETOSCIN hosts: HOST NAME:127.0.0.1 PORT:0
+ NETOSCIN port 0: trying default port parameter PORT:3334
+Set listener
+NetOSCIn listening to OSC messages on UDP port 
+*****Initializing netoscout *****
+RegisterFunction > m_iMethodBase: 1for: PushDebugString
+*****moMoldeoObject::Init > for plugin: netoscout config: moldeoapioscout label: moldeoapioscout is OK!
+moMoldeoObject::CreateConnectors > Calling once. object: netoscout config: moldeoapioscout label:moldeoapioscout
+moMoldeoObject::CreateConnectors > Init param type INLET name: inlet
+moMoldeoObject::CreateConnectors > Init param type OUTLET name: outlet
+moMoldeoObject::CreateConnectors > Init param type SCRIPT name: script
+moMoldeoObject::CreateConnectors > Init param type TEXT name: hosts
+moMoldeoObject::CreateConnectors > Init param type NUM name: port
+moMoldeoObject::CreateConnectors > Init param type TEXT name: devices
+moMoldeoObject::CreateConnectors > Init param type NUM name: latency
+moMoldeoObject::CreateConnectors > Init param type NUM name: max_events
+moMoldeoObject::CreateConnectors > Init param type NUM name: send_events
+moMoldeoObject::CreateConnectors > Init param type NUM name: delete_events
+moMoldeoObject::CreateConnectors > Init param type NUM name: send_moldeo_api
+moMoldeoObject::CreateConnectors > Init param type NUM name: debug
+moMoldeoObject::CreateConnectors > loaded params & values for Object: netoscout config:moldeoapioscout label:moldeoapioscout
+moMoldeoObject::CreateConnectors > OK! Object: netoscout config:moldeoapioscout label: moldeoapioscout
+NetOSCOut UdptransmitSocket Created at127.0.0.1:3335
+moConsole::LoadResources > Resources Plugin loaded !
+moConsole::LoadPreEffects > Loading PreEffects configs...
+moConsole::LoadPreEffects > Pre-Effects number: 1
+*****Initializing erase *****
+RegisterFunction > m_iMethodBase: 1for: PushDebugString
+RegisterFunction > m_iMethodBase: 37for: Play
+*****moMoldeoObject::Init > for plugin: erase config: erase label: erase is OK!
+moMoldeoObject::CreateConnectors > Calling once. object: erase config: erase label:erase
+moMoldeoObject::CreateConnectors > Init param type INLET name: inlet
+moMoldeoObject::CreateConnectors > Init param type OUTLET name: outlet
+moMoldeoObject::CreateConnectors > Init param type SCRIPT name: script
+moMoldeoObject::CreateConnectors > Init param type ALPHA name: alpha
+moMoldeoObject::CreateConnectors > Init param type COLOR name: color
+moMoldeoObject::CreateConnectors > Init param type SYNC name: syncro
+moMoldeoObject::CreateConnectors > Init param type PHASE name: phase
+moMoldeoObject::CreateConnectors > loaded params & values for Object: erase config:erase label:erase
+moMoldeoObject::CreateConnectors > OK! Object: erase config:erase label: erase
+moEffect::PreInit > OK! for object: erase config: erase label: erase
+moConsole::LoadPreEffects > Erase initialized
+moConsole::LoadPreEffects > Pre-Effects loaded !
+moConsole::LoadPostEffects > Loading PostEffects configs...
+moConsole::LoadPostEffects > Post Effects number: 0
+moConsole::LoadPostEffects > Post Effects loaded !
+moConsole::LoadEffects > Loading Effects configs...
+moConsole::LoadEffects > Effects number: 4
+moConsole::LoadingEffect > /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01/video.cfg
+moConsole::LoadingEffect > /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01/particlessimple.cfg
+moConsole::LoadingEffect > /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01/plane.cfg
+moConsole::LoadingEffect > /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01/plane_mask.cfg
+moConsole::LoadEffects > Effects loaded !
+moConsole::LoadMasterEffects > Loading MasterEffects configs...
+moConsole::LoadMasterEffects > Master Effects number: 0
+moConsole::LoadMasterEffects > Master-Effects loaded.
+moConsole::Init > calling VideoManager update function.
+moConsole::Init > InitializeAllEffects.
+*****Initializing movie *****
+RegisterFunction > m_iMethodBase: 1for: PushDebugString
+RegisterFunction > m_iMethodBase: 37for: Play
+RegisterFunction > m_iMethodBase: 47for: GetFeature
+*****moMoldeoObject::Init > for plugin: movie config: video label: video is OK!
+moMoldeoObject::CreateConnectors > Calling once. object: movie config: video label:video
+moMoldeoObject::CreateConnectors > Init param type INLET name: inlet
+moMoldeoObject::CreateConnectors > Init param type OUTLET name: outlet
+moMoldeoObject::CreateConnectors > Init param type SCRIPT name: script
+moMoldeoObject::CreateConnectors > Init param type ALPHA name: alpha
+moMoldeoObject::CreateConnectors > Init param type COLOR name: color
+moMoldeoObject::CreateConnectors > Init param type SYNC name: syncro
+moMoldeoObject::CreateConnectors > Init param type PHASE name: phase
+moMoldeoObject::CreateConnectors > Init param type TEXTURE name: movies
+Initializing GStreamer
+creating pipeline
+creating bus interface
+moGsGraph::Init result:success
+moGsGraph:: added signal to Decoder Bin, "pad-added": 1
+moGsGraph:: created FakeSink! 
+moGsGraph::cb_newpad: video pad created
+moGsGraph::cb_newpad: audio pad created > building filters
+BuildAudioFilters: link_audio_result: 1
+moGsGraph::cb_newpad: get static pad sink audio converter
+moGsGraph::cb_newpad: audio pad link
+moGsGraph::cb_newpad: srcAudio
+moGsGraph::cb_newpad: pad link ok?
+moGsGraph::cb_newpad: pad link is ok GST_PAD_LINK_OK
+moGsGraph::BuildLiveVideoGraph > GST_STATE_PAUSED > OK
+moGsGraph::BuildLiveVideoGraph > gst_app_sink_pull_preroll for appsink
+SetVideoFormat: we have a format!!640 X 480 m_BitCount: -1945083872 m_BufferSize: 921600 buffer duration: 33366666 m_FrameRate: 2997 m_RedMask: 0 m_GreenMask: -1945083872 m_BlueMask: -1945083872
+moGsGraph::BuildLiveVideoGraph > graph builded
+Total length (miliseconds):8768 (frames): 262
+moMoldeoObject::CreateConnectors > Init param type SOUND name: sounds
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: position
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: speed
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: volume
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: balance
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: brightness
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: contrast
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: saturation
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: hue
+moMoldeoObject::CreateConnectors > Init param type NUM name: moviemode
+moMoldeoObject::CreateConnectors > Init param type BLENDING name: blending
+moMoldeoObject::CreateConnectors > Init param type NUM name: startplaying
+moMoldeoObject::CreateConnectors > Init param type NUM name: loop
+moMoldeoObject::CreateConnectors > Init param type NUM name: showtrackdata
+moMoldeoObject::CreateConnectors > Init param type NUM name: interpolation
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: pos_text_x
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: pos_text_y
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: anc_text_x
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: alt_text_y
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: pos_cuad_x
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: pos_cuad_y
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: anc_cuad_x
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: alt_cuad_y
+moMoldeoObject::CreateConnectors > Init param type NUM name: showmoviedata
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: display_x
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: display_y
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: display_width
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: display_height
+moMoldeoObject::CreateConnectors > Init param type NUM name: guides
+moMoldeoObject::CreateConnectors > Init param type NUM name: movielaunch
+moMoldeoObject::CreateConnectors > Init param type NUM name: no_audio_output
+moMoldeoObject::CreateConnectors > Init param type NUM name: no_video_output
+moMoldeoObject::CreateConnectors > Init param type NUM name: no_text_output
+moMoldeoObject::CreateConnectors > loaded params & values for Object: movie config:video label:video
+moEffectMovie::ScriptExeInit !
+moMoldeoObject::CreateConnectors > OK! Object: movie config:video label: video
+moEffect::PreInit > OK! for object: movie config: video label: video
+moEffectMovie::Activate
+*****Initializing particlessimple *****
+RegisterFunction > m_iMethodBase: 1for: PushDebugString
+RegisterFunction > m_iMethodBase: 37for: GetDelta
+*****moMoldeoObject::Init > for plugin: particlessimple config: particlessimple label: particlessimple is OK!
+moMoldeoObject::CreateConnectors > Calling once. object: particlessimple config: particlessimple label:particlessimple
+moMoldeoObject::CreateConnectors > Init param type INLET name: inlet
+moMoldeoObject::CreateConnectors > Init param type OUTLET name: outlet
+moMoldeoObject::CreateConnectors > Init param type ALPHA name: alpha
+moMoldeoObject::CreateConnectors > Init param type COLOR name: color
+moMoldeoObject::CreateConnectors > Init param type SYNC name: syncro
+moMoldeoObject::CreateConnectors > Init param type PHASE name: phase
+moMoldeoObject::CreateConnectors > Init param type COLOR name: particlecolor
+moMoldeoObject::CreateConnectors > Init param type FONT name: font
+moMoldeoObject::CreateConnectors > Init param type TEXT name: text
+moMoldeoObject::CreateConnectors > Init param type NUM name: ortho
+moMoldeoObject::CreateConnectors > Init param type TEXTURE name: texture
+moMoldeoObject::CreateConnectors > Init param type TEXTUREFOLDER name: folders
+moMoldeoObject::CreateConnectors > Init param type NUM name: texture_mode
+moMoldeoObject::CreateConnectors > Init param type BLENDING name: blending
+moMoldeoObject::CreateConnectors > Init param type NUM name: width
+moMoldeoObject::CreateConnectors > Init param type NUM name: height
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: sizex
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: sizey
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: sizez
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: gravity
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: viscosity
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: maxage
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: emitionperiod
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: emitionrate
+moMoldeoObject::CreateConnectors > Init param type NUM name: deathperiod
+moMoldeoObject::CreateConnectors > Init param type SCRIPT name: particlescript
+moMoldeoObject::CreateConnectors > Init param type NUM name: randommethod
+moMoldeoObject::CreateConnectors > Init param type NUM name: creationmethod
+moMoldeoObject::CreateConnectors > Init param type NUM name: orientationmode
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: fadein
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: fadeout
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: sizein
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: sizeout
+moMoldeoObject::CreateConnectors > Init param type NUM name: attractortype
+moMoldeoObject::CreateConnectors > Init param type NUM name: attractormode
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: attractorvectorx
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: attractorvectory
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: attractorvectorz
+moMoldeoObject::CreateConnectors > Init param type NUM name: emittertype
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: emittervectorx
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: emittervectory
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: emittervectorz
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: randomposition
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: randompositionx
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: randompositiony
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: randompositionz
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: randomvelocity
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: randomvelocityx
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: randomvelocityy
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: randomvelocityz
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: randommotion
+moParserFunction::Init > assigning variable [ACCELERATIONX] to inlet with the same name. Inlet index is: 13
+moParserFunction::Init > assigning variable [ACCELERATIONY] to inlet with the same name. Inlet index is: 14
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: randommotionx
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: randommotiony
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: randommotionz
+moMoldeoObject::CreateConnectors > Init param type ROTATEX name: rotatex_particle
+moMoldeoObject::CreateConnectors > Init param type ROTATEY name: rotatey_particle
+moMoldeoObject::CreateConnectors > Init param type ROTATEZ name: rotatez_particle
+moMoldeoObject::CreateConnectors > Init param type SCALEX name: scalex_particle
+moMoldeoObject::CreateConnectors > Init param type SCALEY name: scaley_particle
+moMoldeoObject::CreateConnectors > Init param type SCALEZ name: scalez_particle
+moMoldeoObject::CreateConnectors > Init param type NUM name: time_to_revelation
+moMoldeoObject::CreateConnectors > Init param type NUM name: time_of_revelation
+moMoldeoObject::CreateConnectors > Init param type NUM name: time_to_restoration
+moMoldeoObject::CreateConnectors > Init param type NUM name: time_of_restoration
+moMoldeoObject::CreateConnectors > Init param type NUM name: drawing_features
+moMoldeoObject::CreateConnectors > Init param type TRANSLATEX name: translatex
+moMoldeoObject::CreateConnectors > Init param type TRANSLATEY name: translatey
+moMoldeoObject::CreateConnectors > Init param type TRANSLATEZ name: translatez
+moMoldeoObject::CreateConnectors > Init param type ROTATEX name: rotatex
+moMoldeoObject::CreateConnectors > Init param type ROTATEY name: rotatey
+moMoldeoObject::CreateConnectors > Init param type ROTATEZ name: rotatez
+moMoldeoObject::CreateConnectors > Init param type SCALEX name: scalex
+moMoldeoObject::CreateConnectors > Init param type SCALEY name: scaley
+moMoldeoObject::CreateConnectors > Init param type SCALEZ name: scalez
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: eyex
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: eyey
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: eyez
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: viewx
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: viewy
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: viewz
+moMoldeoObject::CreateConnectors > Init param type SCRIPT name: script
+moMoldeoObject::CreateConnectors > Init param type NUM name: guides
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: upviewx
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: upviewy
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: upviewz
+moMoldeoObject::CreateConnectors > Init param type NUM name: orderingmode
+moMoldeoObject::CreateConnectors > Init param type NUM name: lightmode
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: lightx
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: lighty
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: lightz
+moMoldeoObject::CreateConnectors > loaded params & values for Object: particlessimple config:particlessimple label:particlessimple
+moMoldeoObject::CreateConnectors > OK! Object: particlessimple config:particlessimple label: particlessimple
+moEffect::PreInit > OK! for object: particlessimple config: particlessimple label: particlessimple
+*****Initializing plane *****
+RegisterFunction > m_iMethodBase: 1for: PushDebugString
+RegisterFunction > m_iMethodBase: 37for: Play
+*****moMoldeoObject::Init > for plugin: plane config: plane label: plane is OK!
+moMoldeoObject::CreateConnectors > Calling once. object: plane config: plane label:plane
+moMoldeoObject::CreateConnectors > Init param type INLET name: inlet
+moMoldeoObject::CreateConnectors > Init param type OUTLET name: outlet
+moMoldeoObject::CreateConnectors > Init param type SCRIPT name: script
+moMoldeoObject::CreateConnectors > Init param type ALPHA name: alpha
+moMoldeoObject::CreateConnectors > Init param type COLOR name: color
+moMoldeoObject::CreateConnectors > Init param type SYNC name: syncro
+moMoldeoObject::CreateConnectors > Init param type PHASE name: phase
+moMoldeoObject::CreateConnectors > Init param type TEXTURE name: texture
+moMoldeoObject::CreateConnectors > Init param type BLENDING name: blending
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: width
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: height
+moMoldeoObject::CreateConnectors > Init param type TRANSLATEX name: translatex
+moMoldeoObject::CreateConnectors > Init param type TRANSLATEY name: translatey
+moMoldeoObject::CreateConnectors > Init param type TRANSLATEZ name: translatez
+moMoldeoObject::CreateConnectors > Init param type ROTATEX name: rotatex
+moMoldeoObject::CreateConnectors > Init param type ROTATEY name: rotatey
+moMoldeoObject::CreateConnectors > Init param type ROTATEZ name: rotatez
+moMoldeoObject::CreateConnectors > Init param type SCALEX name: scalex
+moMoldeoObject::CreateConnectors > Init param type SCALEY name: scaley
+moMoldeoObject::CreateConnectors > Init param type SCALEZ name: scalez
+moMoldeoObject::CreateConnectors > Init param type NUM name: guides
+moMoldeoObject::CreateConnectors > loaded params & values for Object: plane config:plane label:plane
+moMoldeoObject::CreateConnectors > OK! Object: plane config:plane label: plane
+moEffect::PreInit > OK! for object: plane config: plane label: plane
+*****Initializing plane *****
+RegisterFunction > m_iMethodBase: 1for: PushDebugString
+RegisterFunction > m_iMethodBase: 37for: Play
+*****moMoldeoObject::Init > for plugin: plane config: plane_mask label: plane_mask is OK!
+moMoldeoObject::CreateConnectors > Calling once. object: plane config: plane_mask label:plane_mask
+moMoldeoObject::CreateConnectors > Init param type INLET name: inlet
+moMoldeoObject::CreateConnectors > Init param type OUTLET name: outlet
+moMoldeoObject::CreateConnectors > Init param type SCRIPT name: script
+moMoldeoObject::CreateConnectors > Init param type ALPHA name: alpha
+moMoldeoObject::CreateConnectors > Init param type COLOR name: color
+moMoldeoObject::CreateConnectors > Init param type SYNC name: syncro
+moMoldeoObject::CreateConnectors > Init param type PHASE name: phase
+moMoldeoObject::CreateConnectors > Init param type TEXTURE name: texture
+/mask.png bpp: 32 colortype:4 image_type:1 pitch:7680 > blue_mask: 255 green_mask:65280 red_mask:16711680
+moMoldeoObject::CreateConnectors > Init param type BLENDING name: blending
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: width
+moMoldeoObject::CreateConnectors > Init param type FUNCTION name: height
+moMoldeoObject::CreateConnectors > Init param type TRANSLATEX name: translatex
+moMoldeoObject::CreateConnectors > Init param type TRANSLATEY name: translatey
+moMoldeoObject::CreateConnectors > Init param type TRANSLATEZ name: translatez
+moMoldeoObject::CreateConnectors > Init param type ROTATEX name: rotatex
+moMoldeoObject::CreateConnectors > Init param type ROTATEY name: rotatey
+moMoldeoObject::CreateConnectors > Init param type ROTATEZ name: rotatez
+moMoldeoObject::CreateConnectors > Init param type SCALEX name: scalex
+moMoldeoObject::CreateConnectors > Init param type SCALEY name: scaley
+moMoldeoObject::CreateConnectors > Init param type SCALEZ name: scalez
+moMoldeoObject::CreateConnectors > Init param type NUM name: guides
+moMoldeoObject::CreateConnectors > loaded params & values for Object: plane config:plane_mask label:plane_mask
+moMoldeoObject::CreateConnectors > OK! Object: plane config:plane_mask label: plane_mask
+moEffect::PreInit > OK! for object: plane config: plane_mask label: plane_mask
+moConsole::Init > StartMasterEffects.
+moConsole::Init > LoadConnections.
+moConsole::Init > ScriptExeInit.
+{'effectstate': {'activated': '1','selected': '-1','tempo': {'tempo': '0.027018','syncro': '1.000000','delta': '1.000000','duration': '44','state': 'playing','started': '1','factor': '1.000000','globaltimer_state': 'playing','globaltimer_duration': '44'},'on': '-1','synchronized': '1','enabled': '1','magnitude': '1.000000','amplitude': '1.000000','alpha': '1.000000','tint': '1.000000','tintr': '1.000000','tintg': '1.000000','tintb': '1.000000','tintc': '0.000000','tints': '0.000000','stereo': '-1','stereoside': '0','fulldebug': '-1'},'object': {'objectstate': {'activated': 1,'selected': -1},'objecttypeid': '-1','objectdefinition': {'moldeoid': '124','name': 'plane','labelname': 'plane','configname': 'plane','type': 'moEffect','console_param_index': '5','console_value_index': '2','description': '','moldeofatherid': '-1','fatherlabelname': ''}}}
+{ 'objectconfig': {'configdefinition': {'objectname': 'plane','objectclass': 'moEffect'},'currentpreconfig':-1,'parameters': {'script': {},'alpha': {},'color': {},'syncro': {},'phase': {},'texture': {},'blending': {},'width': {},'height': {},'translatex': {},'translatey': {},'translatez': {},'rotatex': {},'rotatey': {},'rotatez': {},'scalex': {},'scaley': {},'scalez': {},'guides': {}},'preconfigs': []}}
+Error! moConsole::ProcessMoldeoAPIMessage > MO_ACTION_PRECONFIG_SET > preconfig index [0] not found!
+Error! moConsole::ProcessMoldeoAPIMessage > MO_ACTION_PRECONFIG_SET > preconfig index [0] not found!
+Error! Error releasing bus call watch:252201579132747778
