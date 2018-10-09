@@ -9,13 +9,13 @@ moResourceManager::Init > Initializing Debug Man Resource.
 moResourceManager::Init > Initializing Net Man Resource.
 moResourceManager::Init > Initializing File Man Resource.
 moResourceManager::Init > Initializing Data Man Resource.
- moDataSessionConfig() > m_AppPath empty, setting to Work Path: /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01 p_Port: 0 p_Address: 0
- moDataSessionConfig() > m_AppPath: /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01
+ moDataSessionConfig() > m_AppPath empty, setting to Work Path: /home/fabricio/moldeo/RESET/RESET_mapping_01 p_Port: 0 p_Address: 0
+ moDataSessionConfig() > m_AppPath: /home/fabricio/moldeo/RESET/RESET_mapping_01
  moDataSessionConfig() > m_ConsoleConfigName: 
- moDataSessionConfig() > m_ConsoleConfigName fixed to: /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01/
- moDataSessionConfig() > m_SessionFileName fixed to: /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01/sesion.mos
-moDataSessionConfig > Loaded /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01/sesion.mos
- moDataSessionConfig() > m_DataPath: /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01
+ moDataSessionConfig() > m_ConsoleConfigName fixed to: /home/fabricio/moldeo/RESET/RESET_mapping_01/
+ moDataSessionConfig() > m_SessionFileName fixed to: /home/fabricio/moldeo/RESET/RESET_mapping_01/sesion.mos
+moDataSessionConfig > Loaded /home/fabricio/moldeo/RESET/RESET_mapping_01/sesion.mos
+ moDataSessionConfig() > m_DataPath: /home/fabricio/moldeo/RESET/RESET_mapping_01
 File founded
 libmoldeo_erase
 libmoldeo_mirror
@@ -99,8 +99,8 @@ moRenderManager::Init > Setting Render Manager for Render: 320x240 for Screen: 6
 moRenderManager::Init > Initializing glew.
 moRenderManager::Init > glew initialized succesfully!
 moRenderManager::Init > Using GLEW 1.13.0
-moRenderManager::Init >       glActiveTextureARB: 140139912237728
-moRenderManager::Init >       glMultiTexCoord2fARB: 140139912238496
+moRenderManager::Init >       glActiveTextureARB: 140058028999328
+moRenderManager::Init >       glMultiTexCoord2fARB: 140058029000096
 moRenderManager::Init >       GLEW_ARB_texture_non_power_of_two: 1
 moRenderManager::Init >       GLEW_ARB_color_buffer_float: 1
 moRenderManager::Init >       GLEW_ARB_multitexture: 1
@@ -141,7 +141,7 @@ moResourceManager::Init > Initializing Video Man Resource.
 No videomanager configuration file defined. Continue.
 moResourceManager::Init > Initializing Model Man Resource.
 moResourceManager::Init > Initializing Script Man Resource.
-moLuaResourceManager constructor > L: 38180416
+moLuaResourceManager constructor > L: 20466736
 moResourceManager:: Embedded Resources Ready.
 moConsole:: Initializing IODevice's Manager.
 moConsole::Init > Initializing Effects Manager.
@@ -150,18 +150,18 @@ RegisterFunction > m_iMethodBase: 1for: PushDebugString
 RegisterFunction > m_iMethodBase: 37for: Play
 *****moMoldeoObject::Init > for plugin: __console__ config: RESET_mapping_01.mol label: __console__ is OK!
 moConsole::Init > mol project opening....success 
-moConsole::Init > Initializing Resource Manager.  app path: /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01 data path:  config: RESET_mapping_01.mol render mode: 0 screen size: 640x480 render size: 640x480
+moConsole::Init > Initializing Resource Manager.  app path: /home/fabricio/moldeo/RESET/RESET_mapping_01 data path:  config: RESET_mapping_01.mol render mode: 0 screen size: 640x480 render size: 640x480
 moResourceManager::Init > Initializing Embedded Resources.
 moResourceManager::Init > Initializing Debug Man Resource.
 moResourceManager::Init > Initializing Net Man Resource.
 moResourceManager::Init > Initializing File Man Resource.
 moResourceManager::Init > Initializing Data Man Resource.
- moDataSessionConfig() > m_AppPath: /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01
+ moDataSessionConfig() > m_AppPath: /home/fabricio/moldeo/RESET/RESET_mapping_01
  moDataSessionConfig() > m_ConsoleConfigName: RESET_mapping_01.mol
- moDataSessionConfig() > m_ConsoleConfigName fixed to: /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01/RESET_mapping_01.mol
- moDataSessionConfig() > m_SessionFileName fixed to: /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01/sesion.mos
-moDataSessionConfig > Loaded /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01/sesion.mos
- moDataSessionConfig() > m_DataPath: /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01
+ moDataSessionConfig() > m_ConsoleConfigName fixed to: /home/fabricio/moldeo/RESET/RESET_mapping_01/RESET_mapping_01.mol
+ moDataSessionConfig() > m_SessionFileName fixed to: /home/fabricio/moldeo/RESET/RESET_mapping_01/sesion.mos
+moDataSessionConfig > Loaded /home/fabricio/moldeo/RESET/RESET_mapping_01/sesion.mos
+ moDataSessionConfig() > m_DataPath: /home/fabricio/moldeo/RESET/RESET_mapping_01
 File founded
 libmoldeo_erase
 libmoldeo_mirror
@@ -239,8 +239,8 @@ moRenderManager::Init > Setting Render Manager for Render: 640x480 for Screen: 6
 moRenderManager::Init > Initializing glew.
 moRenderManager::Init > glew initialized succesfully!
 moRenderManager::Init > Using GLEW 1.13.0
-moRenderManager::Init >       glActiveTextureARB: 140139912237728
-moRenderManager::Init >       glMultiTexCoord2fARB: 140139912238496
+moRenderManager::Init >       glActiveTextureARB: 140058028999328
+moRenderManager::Init >       glMultiTexCoord2fARB: 140058029000096
 moRenderManager::Init >       GLEW_ARB_texture_non_power_of_two: 1
 moRenderManager::Init >       GLEW_ARB_color_buffer_float: 1
 moRenderManager::Init >       GLEW_ARB_multitexture: 1
@@ -281,7 +281,7 @@ moResourceManager::Init > Initializing Video Man Resource.
 No videomanager configuration file defined. Continue.
 moResourceManager::Init > Initializing Model Man Resource.
 moResourceManager::Init > Initializing Script Man Resource.
-moLuaResourceManager constructor > L: 38180416
+moLuaResourceManager constructor > L: 20466736
 moResourceManager:: Embedded Resources Ready.
 moMoldeoObject::CreateConnectors > Calling once. object: __console__ config: RESET_mapping_01.mol label:__console__
 moMoldeoObject::CreateConnectors > Init param type INLET name: inlet
@@ -375,10 +375,10 @@ moConsole::LoadPostEffects > Post Effects number: 0
 moConsole::LoadPostEffects > Post Effects loaded !
 moConsole::LoadEffects > Loading Effects configs...
 moConsole::LoadEffects > Effects number: 4
-moConsole::LoadingEffect > /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01/video.cfg
-moConsole::LoadingEffect > /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01/particlessimple.cfg
-moConsole::LoadingEffect > /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01/plane.cfg
-moConsole::LoadingEffect > /home/fabricio/moldeo/moldeoinstaller/moldeosamples/taller/RESET_mapping_01/plane_mask.cfg
+moConsole::LoadingEffect > /home/fabricio/moldeo/RESET/RESET_mapping_01/video.cfg
+moConsole::LoadingEffect > /home/fabricio/moldeo/RESET/RESET_mapping_01/particlessimple.cfg
+moConsole::LoadingEffect > /home/fabricio/moldeo/RESET/RESET_mapping_01/plane.cfg
+moConsole::LoadingEffect > /home/fabricio/moldeo/RESET/RESET_mapping_01/plane_mask.cfg
 moConsole::LoadEffects > Effects loaded !
 moConsole::LoadMasterEffects > Loading MasterEffects configs...
 moConsole::LoadMasterEffects > Master Effects number: 0
@@ -415,7 +415,7 @@ moGsGraph::cb_newpad: pad link ok?
 moGsGraph::cb_newpad: pad link is ok GST_PAD_LINK_OK
 moGsGraph::BuildLiveVideoGraph > GST_STATE_PAUSED > OK
 moGsGraph::BuildLiveVideoGraph > gst_app_sink_pull_preroll for appsink
-SetVideoFormat: we have a format!!640 X 480 m_BitCount: -1945083872 m_BufferSize: 921600 buffer duration: 33366666 m_FrameRate: 2997 m_RedMask: 0 m_GreenMask: -1945083872 m_BlueMask: -1945083872
+SetVideoFormat: we have a format!!640 X 480 m_BitCount: 2081447968 m_BufferSize: 921600 buffer duration: 33366666 m_FrameRate: 2997 m_RedMask: 0 m_GreenMask: 2081447968 m_BlueMask: 60687304
 moGsGraph::BuildLiveVideoGraph > graph builded
 Total length (miliseconds):8768 (frames): 262
 moMoldeoObject::CreateConnectors > Init param type SOUND name: sounds
@@ -618,7 +618,7 @@ moEffect::PreInit > OK! for object: plane config: plane_mask label: plane_mask
 moConsole::Init > StartMasterEffects.
 moConsole::Init > LoadConnections.
 moConsole::Init > ScriptExeInit.
-{'effectstate': {'activated': '1','selected': '-1','tempo': {'tempo': '0.027018','syncro': '1.000000','delta': '1.000000','duration': '44','state': 'playing','started': '1','factor': '1.000000','globaltimer_state': 'playing','globaltimer_duration': '44'},'on': '-1','synchronized': '1','enabled': '1','magnitude': '1.000000','amplitude': '1.000000','alpha': '1.000000','tint': '1.000000','tintr': '1.000000','tintg': '1.000000','tintb': '1.000000','tintc': '0.000000','tints': '0.000000','stereo': '-1','stereoside': '0','fulldebug': '-1'},'object': {'objectstate': {'activated': 1,'selected': -1},'objecttypeid': '-1','objectdefinition': {'moldeoid': '124','name': 'plane','labelname': 'plane','configname': 'plane','type': 'moEffect','console_param_index': '5','console_value_index': '2','description': '','moldeofatherid': '-1','fatherlabelname': ''}}}
+{'effectstate': {'activated': '1','selected': '-1','tempo': {'tempo': '0.031416','syncro': '1.000000','delta': '1.000000','duration': '52','state': 'playing','started': '1','factor': '1.000000','globaltimer_state': 'playing','globaltimer_duration': '52'},'on': '-1','synchronized': '1','enabled': '1','magnitude': '1.000000','amplitude': '1.000000','alpha': '1.000000','tint': '1.000000','tintr': '1.000000','tintg': '1.000000','tintb': '1.000000','tintc': '0.000000','tints': '0.000000','stereo': '-1','stereoside': '0','fulldebug': '-1'},'object': {'objectstate': {'activated': 1,'selected': -1},'objecttypeid': '-1','objectdefinition': {'moldeoid': '124','name': 'plane','labelname': 'plane','configname': 'plane','type': 'moEffect','console_param_index': '5','console_value_index': '2','description': '','moldeofatherid': '-1','fatherlabelname': ''}}}
 { 'objectconfig': {'configdefinition': {'objectname': 'plane','objectclass': 'moEffect'},'currentpreconfig':-1,'parameters': {'script': {},'alpha': {},'color': {},'syncro': {},'phase': {},'texture': {},'blending': {},'width': {},'height': {},'translatex': {},'translatey': {},'translatez': {},'rotatex': {},'rotatey': {},'rotatez': {},'scalex': {},'scaley': {},'scalez': {},'guides': {}},'preconfigs': []}}
 Error! moConsole::ProcessMoldeoAPIMessage > MO_ACTION_PRECONFIG_SET > preconfig index [0] not found!
 Error! moConsole::ProcessMoldeoAPIMessage > MO_ACTION_PRECONFIG_SET > preconfig index [0] not found!
