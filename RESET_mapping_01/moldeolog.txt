@@ -99,8 +99,8 @@ moRenderManager::Init > Setting Render Manager for Render: 320x240 for Screen: 6
 moRenderManager::Init > Initializing glew.
 moRenderManager::Init > glew initialized succesfully!
 moRenderManager::Init > Using GLEW 1.13.0
-moRenderManager::Init >       glActiveTextureARB: 140058028999328
-moRenderManager::Init >       glMultiTexCoord2fARB: 140058029000096
+moRenderManager::Init >       glActiveTextureARB: 139864115458720
+moRenderManager::Init >       glMultiTexCoord2fARB: 139864115459488
 moRenderManager::Init >       GLEW_ARB_texture_non_power_of_two: 1
 moRenderManager::Init >       GLEW_ARB_color_buffer_float: 1
 moRenderManager::Init >       GLEW_ARB_multitexture: 1
@@ -141,7 +141,7 @@ moResourceManager::Init > Initializing Video Man Resource.
 No videomanager configuration file defined. Continue.
 moResourceManager::Init > Initializing Model Man Resource.
 moResourceManager::Init > Initializing Script Man Resource.
-moLuaResourceManager constructor > L: 20466736
+moLuaResourceManager constructor > L: 18283696
 moResourceManager:: Embedded Resources Ready.
 moConsole:: Initializing IODevice's Manager.
 moConsole::Init > Initializing Effects Manager.
@@ -239,8 +239,8 @@ moRenderManager::Init > Setting Render Manager for Render: 640x480 for Screen: 6
 moRenderManager::Init > Initializing glew.
 moRenderManager::Init > glew initialized succesfully!
 moRenderManager::Init > Using GLEW 1.13.0
-moRenderManager::Init >       glActiveTextureARB: 140058028999328
-moRenderManager::Init >       glMultiTexCoord2fARB: 140058029000096
+moRenderManager::Init >       glActiveTextureARB: 139864115458720
+moRenderManager::Init >       glMultiTexCoord2fARB: 139864115459488
 moRenderManager::Init >       GLEW_ARB_texture_non_power_of_two: 1
 moRenderManager::Init >       GLEW_ARB_color_buffer_float: 1
 moRenderManager::Init >       GLEW_ARB_multitexture: 1
@@ -281,7 +281,7 @@ moResourceManager::Init > Initializing Video Man Resource.
 No videomanager configuration file defined. Continue.
 moResourceManager::Init > Initializing Model Man Resource.
 moResourceManager::Init > Initializing Script Man Resource.
-moLuaResourceManager constructor > L: 20466736
+moLuaResourceManager constructor > L: 18283696
 moResourceManager:: Embedded Resources Ready.
 moMoldeoObject::CreateConnectors > Calling once. object: __console__ config: RESET_mapping_01.mol label:__console__
 moMoldeoObject::CreateConnectors > Init param type INLET name: inlet
@@ -415,7 +415,7 @@ moGsGraph::cb_newpad: pad link ok?
 moGsGraph::cb_newpad: pad link is ok GST_PAD_LINK_OK
 moGsGraph::BuildLiveVideoGraph > GST_STATE_PAUSED > OK
 moGsGraph::BuildLiveVideoGraph > gst_app_sink_pull_preroll for appsink
-SetVideoFormat: we have a format!!640 X 480 m_BitCount: 2081447968 m_BufferSize: 921600 buffer duration: 33366666 m_FrameRate: 2997 m_RedMask: 0 m_GreenMask: 2081447968 m_BlueMask: 60687304
+SetVideoFormat: we have a format!!640 X 480 m_BitCount: 1410367520 m_BufferSize: 921600 buffer duration: 33366666 m_FrameRate: 2997 m_RedMask: 0 m_GreenMask: 1410367520 m_BlueMask: 58786168
 moGsGraph::BuildLiveVideoGraph > graph builded
 Total length (miliseconds):8768 (frames): 262
 moMoldeoObject::CreateConnectors > Init param type SOUND name: sounds
@@ -618,8 +618,32 @@ moEffect::PreInit > OK! for object: plane config: plane_mask label: plane_mask
 moConsole::Init > StartMasterEffects.
 moConsole::Init > LoadConnections.
 moConsole::Init > ScriptExeInit.
-{'effectstate': {'activated': '1','selected': '-1','tempo': {'tempo': '0.031416','syncro': '1.000000','delta': '1.000000','duration': '52','state': 'playing','started': '1','factor': '1.000000','globaltimer_state': 'playing','globaltimer_duration': '52'},'on': '-1','synchronized': '1','enabled': '1','magnitude': '1.000000','amplitude': '1.000000','alpha': '1.000000','tint': '1.000000','tintr': '1.000000','tintg': '1.000000','tintb': '1.000000','tintc': '0.000000','tints': '0.000000','stereo': '-1','stereoside': '0','fulldebug': '-1'},'object': {'objectstate': {'activated': 1,'selected': -1},'objecttypeid': '-1','objectdefinition': {'moldeoid': '124','name': 'plane','labelname': 'plane','configname': 'plane','type': 'moEffect','console_param_index': '5','console_value_index': '2','description': '','moldeofatherid': '-1','fatherlabelname': ''}}}
+{'effectstate': {'activated': '1','selected': '-1','tempo': {'tempo': '0.043354','syncro': '1.000000','delta': '1.000000','duration': '72','state': 'playing','started': '1','factor': '1.000000','globaltimer_state': 'playing','globaltimer_duration': '72'},'on': '-1','synchronized': '1','enabled': '1','magnitude': '1.000000','amplitude': '1.000000','alpha': '1.000000','tint': '1.000000','tintr': '1.000000','tintg': '1.000000','tintb': '1.000000','tintc': '0.000000','tints': '0.000000','stereo': '-1','stereoside': '0','fulldebug': '-1'},'object': {'objectstate': {'activated': 1,'selected': -1},'objecttypeid': '-1','objectdefinition': {'moldeoid': '124','name': 'plane','labelname': 'plane','configname': 'plane','type': 'moEffect','console_param_index': '5','console_value_index': '2','description': '','moldeofatherid': '-1','fatherlabelname': ''}}}
 { 'objectconfig': {'configdefinition': {'objectname': 'plane','objectclass': 'moEffect'},'currentpreconfig':-1,'parameters': {'script': {},'alpha': {},'color': {},'syncro': {},'phase': {},'texture': {},'blending': {},'width': {},'height': {},'translatex': {},'translatey': {},'translatez': {},'rotatex': {},'rotatey': {},'rotatez': {},'scalex': {},'scaley': {},'scalez': {},'guides': {}},'preconfigs': []}}
 Error! moConsole::ProcessMoldeoAPIMessage > MO_ACTION_PRECONFIG_SET > preconfig index [0] not found!
 Error! moConsole::ProcessMoldeoAPIMessage > MO_ACTION_PRECONFIG_SET > preconfig index [0] not found!
+Reached End at 252
+Pausing. Virtual Stop at 252
+Looping video.
+Reached End at 252
+Pausing. Virtual Stop at 252
+Looping video.
+Reached End at 252
+Pausing. Virtual Stop at 252
+Looping video.
+{'effectstate': {'activated': '1','selected': '-1','tempo': {'tempo': '17.709158','syncro': '1.000000','delta': '1.000000','duration': '28193','state': 'playing','started': '1','factor': '1.000000','globaltimer_state': 'playing','globaltimer_duration': '28193'},'on': '-1','synchronized': '1','enabled': '1','magnitude': '1.000000','amplitude': '1.000000','alpha': '1.000000','tint': '1.000000','tintr': '1.000000','tintg': '1.000000','tintb': '1.000000','tintc': '0.000000','tints': '0.000000','stereo': '-1','stereoside': '0','fulldebug': '-1'},'object': {'objectstate': {'activated': 1,'selected': -1},'objecttypeid': '-1','objectdefinition': {'moldeoid': '122','name': 'movie','labelname': 'video','configname': 'video','type': 'moEffect','console_param_index': '5','console_value_index': '0','description': '','moldeofatherid': '-1','fatherlabelname': ''}}}
+{ 'objectconfig': {'configdefinition': {'objectname': 'movie','objectclass': 'moEffect'},'currentpreconfig':0,'parameters': {'script': {},'alpha': {},'color': {},'syncro': {},'phase': {},'movies': {},'sounds': {},'position': {},'speed': {},'volume': {},'balance': {},'brightness': {},'contrast': {},'saturation': {},'hue': {},'moviemode': {},'blending': {},'startplaying': {},'loop': {},'showtrackdata': {},'interpolation': {},'pos_text_x': {},'pos_text_y': {},'anc_text_x': {},'alt_text_y': {},'pos_cuad_x': {},'pos_cuad_y': {},'anc_cuad_x': {},'alt_cuad_y': {},'showmoviedata': {},'display_x': {},'display_y': {},'display_width': {},'display_height': {},'guides': {},'movielaunch': {},'no_audio_output': {},'no_video_output': {},'no_text_output': {}},'preconfigs': [{'n': ''}]}}
+video
+MO_ACTION_VALUE_SET settings: arg1Text (param):alpha arg2Text (preconf): [0] arg2Int: 0 arg3Text (val): 0.5 VB( subvalue: 0 ): MO_DATA_FUNCTION)
+valueget [{'d':{'t': 'FUNCTION'},'v':'0.5'}]
+Reached End at 252
+Pausing. Virtual Stop at 252
+Looping video.
+video
+MO_ACTION_VALUE_SET settings: arg1Text (param):alpha arg2Text (preconf): [0] arg2Int: 0 arg3Text (val): 1.0 VB( subvalue: 0 ): MO_DATA_FUNCTION)
+valueget [{'d':{'t': 'FUNCTION'},'v':'1.0'}]
+Reached End at 252
+Pausing. Virtual Stop at 252
+Looping video.
+moConsole::Processing > Saving ALL
 Error! Error releasing bus call watch:252201579132747778

@@ -28,6 +28,14 @@
         </PARAM>
         <PARAM name="effect" type="MOLDEOOBJECT">
             <VAL>
+                <D type="TXT">movie</D>
+                <D type="TXT">video</D>
+                <D type="TXT">video</D>
+                <D type="NUM">0</D>
+                <D type="NUM">1</D>
+                <D type="TXT">W</D>
+            </VAL>
+            <VAL>
                 <D type="TXT">particlessimple</D>
                 <D type="TXT">particlessimple</D>
                 <D type="TXT">particlessimple</D>
